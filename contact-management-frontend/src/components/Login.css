@@ -1,0 +1,117 @@
+/* Login.css */
+.login-container {
+  display: flex;
+  height: 100vh;
+  background-color: #f3f4f6;
+}
+
+.login-form-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 5%;
+  background-color: #fff;
+  text-align: left;
+}
+
+.login-form-container h2 {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.login-form-container p {
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.login-button, .google-login-button {
+  width: 100%;
+  padding: 12px;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.login-button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  margin-bottom: 15px;
+}
+
+.google-login-button {
+  background-color: #4285f4;
+  color: #fff;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.google-login-button img {
+  width: 20px;
+  margin-right: 8px;
+}
+
+.signup-link {
+  color: blue;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.login-image-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-image: url('login_image.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.login-image-container h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.login-image-container h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.login-image-container p {
+  max-width: 80%;
+  font-size: 1em;
+}
